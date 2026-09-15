@@ -1,0 +1,33 @@
+* {
+    
+#cn {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: solid  black  underline;
+    text-transform: uppercase;
+
+
+}
+#a {
+    text-align: center;
+    display: inline;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    padding-right: 0px;
+}
+p {
+    border: solid 2px black;
+    width: 500px;
+    background-color: chartreuse;
+}
+#as {
+    text-align: center;
+}
+
+img { display: block;
+    margin: auto ;
+    border-radius: 50%;
+
+   
+}
