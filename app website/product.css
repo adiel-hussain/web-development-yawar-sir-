@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding: 25px 6%;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #b1b7c2;
+    padding: 10px 18px;
+    border-radius: 25px;
+    width: 35%;
+}
+
+
+
+.search input{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
+    width: 100%;
+    color: blanchedalmond;
+
+
+}
+.search i{
+    cursor: pointer;
+}
+.header-icons {
+    display: flex;
+    gap: 35px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: rgb(247, 243, 237);
+    padding : 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight:600;
+}
+.navbar a:hover{
+    color: blue;
+}
+
+.sidebar{
+    /* border: 2px solid black; */
+    width:20%;
+    border-radius: 20px;
+    background-color: rgb(203, 195, 185);
+    margin: 20px;
+
+}
+.sidebar-header{
+    padding: 20px 8%;
+
+}
+.sidebar-iconss p{
+    padding: 20px 8%;
+    font-size: 1.4rem;
+    /* border: 1px solid black; */
+
+}
+.sidebar-iconss p:hover{
+    background-color: rgb(124, 114, 45);
+    color: red;
+}
+.container{
+    display: flex;
+}
+.main-body{
+    width: 80%;
+}
+.body-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 20px;
+
+}
+.body-header1{
+    margin-left: 10px;
+}
+.body-header2{
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+.body-header-1{
+    font-size: 1.2rem;
+    margin-right: 5px;
+   
+}
+.body-header-2 select{
+    padding:5px 30px;
+     border-radius: 10px;
+}
+.body-header-icon1{
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 2px 5px;
+
+}
+.body-header-icon1 i{
+    border: 2px solid black;
+    margin: 5px;   
+}
+.box1{
+    
+}
