@@ -1,103 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>SPEEDY KART - Home</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            <div class="img1">
-                <img src="speedykartlogo.webp" alt="speedykart logo">
-                <h1>SpeedyKart</h1>
-            </div>
-            <div>
 
-            </div>
-            <div class="searchbar">
-                <input type="text" value="" placeholder="searchicon">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+<!-- NAVBAR -->
+<header class="header">
 
-            </div>
-            <div>
+    <div class="logo">
+        <!-- <i class="fa-solid fa-bag-shopping"></i> -->
+        <h2>SPEEDY KART</h2>
+    </div>
 
-            </div>
-            <div class="icons">
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-brands fa-shopify"></i>
+    <div class="search-box">
+        <input type="text" placeholder="Search for products...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
 
-            </div>
-            <div class="bars">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+    <div class="nav-icons">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </div>
+
+    <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="product.html">Products</a>
+        <a href="#">Categories</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Discover<br>
+        Trendy Products<br>
+        For a Better You</h1>
+
+        <p>
+            Latest collections, best prices and amazing offers
+            only at ShopEase.
+        </p>
+
+        <button>Shop Now</button>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=700"
+        alt="Shopping">
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+<section class="services">
+
+    <div class="service-box">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div>
+            <h4>Free Shipping</h4>
+            <p>On all orders</p>
         </div>
-        <nav class="navbar">
-            <a href="#">HOME</a>
-            <a href="#">HOT BOX</a>
-            <a href="#">SPEEDY MART</a>
-            <a href="#">ABOUT US</a>
-        </nav>
-        <div class="background-image">
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-credit-card"></i>
+        <div>
+            <h4>Secure Payment</h4>
+            <p>100% secure</p>
+        </div>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-rotate-left"></i>
+        <div>
+            <h4>Easy Returns</h4>
+            <p>7 days return</p>
+        </div>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-headset"></i>
+        <div>
+            <h4>24/7 Support</h4>
+            <p>Always here</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- FEATURED PRODUCTS -->
+<section class="featured">
+
+    <div class="section-heading">
+        <h2>Featured Products</h2>
+        <button>View All</button>
+    </div>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" alt="Shoes">
+
+            <h3>Casual Sneakers</h3>
+            <h4>₹1,299</h4>
+
+            <div class="rating">★★★★★</div>
+
+            <button>Add to Cart</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Watch">
+
+            <h3>Smart Watch</h3>
+            <h4>₹2,999</h4>
+
+            <div class="rating">★★★★★</div>
+
+            <button>Add to Cart</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" alt="Handbag">
+
+            <h3>Stylish Handbag</h3>
+            <h4>₹1,899</h4>
+
+            <div class="rating">★★★★★</div>
+
+            <button>Add to Cart</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones">
+
+            <h3>Wireless Headphones</h3>
+            <h4>₹2,499</h4>
+
+            <div class="rating">★★★★★</div>
+
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SHOP BY CATEGORY -->
+<section class="categories">
+
+    <h2>Shop by Category</h2>
+
+    <div class="category-container">
+
+        <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400" alt="Electronics">
+            <h3>Electronics</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400" alt="Clothing">
+            <h3>Clothing</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" alt="Accessories">
+            <h3>Accessories</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400" alt="Footwear">
+            <h3>Footwear</h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SPECIAL OFFER -->
+<section class="offer">
+
+    <div class="offer-content">
+
+        <h2>Special Offer</h2>
+
+        <h1>Get Up to 50% Off</h1>
+
+        <p>On Selected Products</p>
+
+        <button>Shop Now</button>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+
+            <h2>
+                <i class="fa-solid fa-bag-shopping"></i>
+                ShopEase
+            </h2>
+
+            <p>
+                Your one-stop shop for the latest trends
+                and best products.
+            </p>
+
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
 
         </div>
-        <div class="box">
-            <div class="boxes box1">
-                <i class="fa-regular fa-truck"></i>
-                <div class="text-1">
-                    <h1>Free Shipping</h1>
-                    <p>On all servives</p>
-                </div>
-            </div>
-            <div class="boxes box2">
-                <i class="fa-solid fa-wallet"></i>
-                <div class="text-1">
-                    <h1>Secure Payments</h1>
-                    <p>100% secure</p>
-                </div>
-            </div>
-            <div class="boxes box3">
-                <i class="fa-solid fa-arrow-rotate-left"></i>
-                <div class="text-1">
-                    <h1>Easy Returns</h1>
-                    <p>7 days return </p>
-                </div>
-            </div>
-            <div class="boxes box4">
-                <i class="fa-solid fa-people-roof"></i>
-                <div class="text-1">
-                    <h1>24\7 Support</h1>
-                    <p>Always here</p>
-                </div>
-            </div>
-        </div>
-        <div class="top-products">
-            <div class="products-header">
-                <div>
-                    <h1>Features Products</h1>
-                </div>
-                <div>
-                    <a href="#">View All</a>
-                </div>
 
-            </div>
-            <div class="product-boxes">
-                <div class="product-box box1">
-                    <div class="box-image" style="background-image: url(shoe\ image.jpeg);"></div>
-                    
-                </div>
-                <div class="product-box box2">2</div>
-                <div class="product-box box3">3</div>
-                <div class="product-box box4">4</div>
-            </div>
-        </div>
-    </header>
 
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Categories</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Customer Service</h3>
+
+            <a href="#">FAQs</a>
+            <a href="#">Shipping Policy</a>
+            <a href="#">Return Policy</a>
+            <a href="#">Track Order</a>
+            <a href="#">Help & Support</a>
+
+        </div>
+
+
+        <div class="newsletter">
+
+            <h3>Newsletter</h3>
+
+            <p>
+                Subscribe to get latest offers and updates.
+            </p>
+
+            <div class="email-box">
+                <input type="email" placeholder="Enter your email">
+                <button>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>© 2026 ShopEase. All Rights Reserved.</p>
+
+        <div>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+    </div>
+
+</footer>
 
 </body>
-
 </html>
