@@ -20,6 +20,11 @@
     margin-bottom: 20px;
 }
 
+.logo img {
+    width: 20px;
+    height: 20px;
+}
+
 .about-content p {
     font-size: 15px;
     color: #666;
@@ -60,7 +65,7 @@
 
 .mission-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .mission-box i {
