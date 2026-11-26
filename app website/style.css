@@ -10,7 +10,7 @@ body {
     color: #222;
 }
 
-/* HEADER */
+HEADER
 .header {
     background: white;
     padding: 18px 4%;
@@ -22,15 +22,15 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-/* LOGO */
+/* LOGO
 .logo {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #ed6250;
-}
+} */
 
-.logo i {
+/* .logo i {
     font-size: 28px;
 }
 
@@ -46,14 +46,14 @@ body {
     display: flex;
     align-items: center;
     width: 260px;
-}
+} */
 
-.search-box input {
+/* .search-box input {
     border: none;
     outline: none;
     background: transparent;
     width: 100%;
-}
+} */
 
 .search-box i {
     color: #555;
@@ -95,7 +95,7 @@ body {
 
 /* HERO SECTION */
 .hero {
-    background: linear-gradient(120deg, #ffe0d2, #f6bda9);
+    background: rgba(129, 245, 145, 0.87);
     min-height: 330px;
     padding: 40px 5%;
     display: flex;
